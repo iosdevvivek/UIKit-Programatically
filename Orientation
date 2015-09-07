@@ -1,0 +1,15 @@
+UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+
+    if(orientation == UIInterfaceOrientationPortrait || 
+       orientation == UIInterfaceOrientationPortraitUpsideDown) {
+
+       //Portrait orientation
+
+}
+
+if(orientation == UIInterfaceOrientationLandscapeRight ||
+   orientation == UIInterfaceOrientationLandscapeLeft) {
+
+    //Landscape orientation
+
+}
